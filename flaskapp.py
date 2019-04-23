@@ -23,9 +23,7 @@ def getHostIp():
         print("Unable to get Hostname and IP")
 
 
-def start():
-    getDirectoryName
-    getHostIp()
+if __name__ == "__main__":
     app = Flask(__name__)
     app.register_blueprint(routes)
     app.run(host="0.0.0.0")

@@ -150,41 +150,14 @@ body {
     width: 2rem;
 }
 
-.black {
-    background-color: black;
-    color: white;
-}
-
-.blue {
-    background-color: blue;
-}
-
 .gray {
+    background-color: darkgray;
+}
+
+.gray:hover {
     background-color: gray;
-}
-
-.green {
-    background-color: green;
-}
-
-.orange {
-    background-color: orange;
-}
-
-.pink {
-    background-color: pink;
-}
-
-.purple {
-    background-color: purple;
-}
-
-.red {
-    background-color: red;
-}
-
-.yellow {
-    background-color: yellow;
+    border-color: #333333;
+    color: white;
 }
 
 .white {
@@ -224,5 +197,12 @@ body {
     text-align: center;
     font-size: .75rem;
     border: 2px solid;
-    padding: .2rem;
+    padding-top: .1rem;
+    padding-right: .2rem;
+    padding-bottom: .1rem;
+    padding-left: .2rem;
+}
+
+.btn {
+    padding: .425rem;
 }
