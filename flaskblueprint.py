@@ -16,10 +16,10 @@ def inject_now():
 def Main():
     return render_template("index.html")
 
-# GET: "/gpio"
-@routes.route("/gpio")
+# GET: "/relay"
+@routes.route("/relay")
 def gpio():
-    return render_template("gpio.html")
+    return render_template("relay.html")
 
 
 def ShutdownServer():
