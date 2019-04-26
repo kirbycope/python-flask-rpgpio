@@ -18,13 +18,13 @@ def getHostIp():
         host_name = socket.gethostname()
         host_ip = socket.gethostbyname(host_name)
         print("Hostname :  ", host_name)
-        print("http://" + host_ip + ":5000")
+        print("http://" + host_ip + ":1337")
     except:
         print("Unable to get Hostname and IP")
 
 
 def start():
-	getDirectoryName()
+    getDirectoryName()
     getHostIp()
     app = Flask(__name__)
     app.register_blueprint(routes)
